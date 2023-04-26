@@ -1,0 +1,5 @@
+.h2-number:before {
+    content: counter(section);
+    counter-increment: section;
+  }
+  
